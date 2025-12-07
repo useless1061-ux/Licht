@@ -33,8 +33,8 @@ services:
 
       # These automatically populate connection details 
       # for the Render Postgres database defined below
-      - key: DB_TYPE
-        value: postgresdb
+      - key: WEBHOOK_URL
+        value: https://n8n-service-wsqw.onrender.com
       - key: DB_POSTGRESDB_DATABASE
         fromDatabase:
           name: n8n-db
